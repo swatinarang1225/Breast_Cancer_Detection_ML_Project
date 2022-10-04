@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Breast Cancer Detection </title>
+    <link rel = "stylesheet" href="static/app.css">
+</head>
+<body>
+<div class = ".container">
+<h1><b> Breast Cancer Prediction</b></h1>
+    <h2> Please Enter the below Values:</h2>
+
+<div class = "flex-container">
+     <div class = "left">
+        <img src = "{{url_for('static', filename='home_img.jpg')}}" >
+     </div>
+    <div class = "right">
+    <form action = '/predict' method = 'POST'>
+        <div class = "table">
+            <center>
+            <table>
+                <tr>
+                    <td><input type = "text" placeholder="Enter Radius mean"  name='username1' size = 30></td>
+                    <td><input type = "text" placeholder="Enter Texture mean" name='username2' size = 30></td>
+                    <td><input type = "text" placeholder="Enter Perimeter mean" name='username3' size = 30></td>
+                </tr>
+                <tr>
+                    <td><input type = "text" placeholder="Enter Area mean" name='username4' size = 30></td>
+                    <td><input type = "text" placeholder="Enter Smoothness mean" name='username5' size = 30></td>
+                    <td><input type = "text" placeholder="Enter Compactness mean" name='username6' size = 30></td>
+                </tr>
+                <tr>
+                   <td><input type = "text" placeholder="Enter Concavity mean" name='username7' size = 30></td>
+                    <td><input type = "text" placeholder="Enter Concave Points mean" name='username8' size = 30></td>
+                    <td><input type = "text" placeholder="Enter Symmetry mean" name='username9' size = 30></td>
+
+                </tr>
+                <tr>
+                   <td><input type = "text" placeholder="Enter Fractal Dimension mean" name='username10' size = 30></td>
+                    <td><input type = "text" placeholder="Enter Radius se" name='username11' size = 30></td>
+                    <td><input type = "text" placeholder="Enter Texture se" name='username12' size = 30></td>
+
+                </tr>
+                <tr>
+                   <td><input type = "text" placeholder="Enter Perimeter se" name='username13' size = 30></td>
+                    <td><input type = "text" placeholder="Enter Area se" name='username14' size = 30></td>
+                    <td><input type = "text" placeholder="Enter Smoothness se" name='username15' size = 30></td>
+
+                </tr>
+                <tr>
+                   <td><input type = "text" placeholder="Enter Compactness se"name='username16' size = 30></td>
+                    <td><input type = "text" placeholder="Enter Concavity se" name='username17' size = 30></td>
+                    <td><input type = "text" placeholder="Enter Concave points se" name='username18' size = 30></td>
+
+                </tr>
+                <tr>
+                   <td><input type = "text" placeholder="Enter Symmetry se" name='username19' size = 30></td>
+                    <td><input type = "text" placeholder="Enter Fractal dimension se" name='username20' size = 30></td>
+                    <td><input type = "text" placeholder="Enter Radius worst" name='username21' size = 30></td>
+
+                </tr>
+                <tr>
+                   <td><input type = "text" placeholder="Enter Texture worst" name='username22' size = 30></td>
+                    <td><input type = "text" placeholder="Enter Perimeter worst" name='username23' size = 30></td>
+                    <td><input type = "text" placeholder="Enter Area worst" name='username24' size = 30></td>
+
+                </tr>
+                <tr>
+                   <td> <input type = "text" placeholder="Enter Smoothness worst" name='username25' size = 30></td>
+                    <td><input type = "text" placeholder="Enter Compactness worst" name='username26' size = 30></td>
+                    <td><input type = "text" placeholder="Enter Concavity worst" name='username27' size = 30></td>
+
+                </tr>
+                <tr>
+                   <td> <input type = "text" placeholder="Enter Concave Point worst" name='username28' size = 30></td>
+                    <td><input type = "text" placeholder="Enter Symmetry worst" name='username29' size = 30></td>
+                    <td><input type = "text" placeholder="Enter Fractal dimension worst" name='username30' size = 30></td>
+
+                </tr>
+            </table>
+            </center>
+        </div>
+        <input type = "submit" value = "Predict Cancer" class = "btn">
+
+    </form>
+</div>
+</div>
+<div class="result">
+    <p>{{info}}</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+* {
+            box-sizing: border-box;
+        }
+        body {background-color:#8AAAE5; font-family:Arial, Helvetica, sans-serif;}
+
+        .conatiner{
+            height: 1200px;
+            float: left;
+              width: 60%;
+              padding: 0 20px;
+              overflow: hidden;
+        }
+        h1 { color:white; font-style:italics; text-align:center; padding-bottom: 3rem; font-size:50px;}
+        h2 { color: teal; text-align:center; font-size:25px;}
+        table{
+            padding-left:2rem;
+            align: center;
+            border-spacing:1rem;
+
+        }
+        .btn{
+            margin: 0;
+            position: absolute;
+            left: 50%;
+            align: center;
+            border: 2px;
+            color: pink;
+            background-color: black;
+            padding: 10px 20px;
+            font-size:16px;
+            cursor:pointer;
+            text-align: center;
+        }
+        .result{
+
+            padding-top:3rem;
+            margin: 0;
+            position: absolute;
+            left: 45%;
+            color: black;
+            font-size: 25px;
+         }
+        .flex-container {
+              display: flex;
+        }
+        .left > img{
+            padding: 3rem 2rem;
+            width:450px;
+            height:500px;
+        }
+        .right{
+        padding:2.5rem 2rem;
+        }
+
+        .table{
+        padding-bottom:5rem;
+        }
+        @media only screen and (max-width:800px) {
+          /* For tablets: */
+          .main {
+            width: 80%;
+            padding: 0;
+          }
+          .right {
+            width: 100%;
+          }
+        }
+        @media only screen and (max-width:500px) {
+          /* For mobile phones: */
+          .menu, .main, .right {
+            width: 100%;
+          }
+        }
