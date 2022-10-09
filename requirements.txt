@@ -88,7 +88,6 @@ pyparsing==3.0.7
 pyrsistent==0.18.0
 pytest==3.0.5
 pytest-cov==2.4.0
-python-dateutil==2.6.1
 python-slugify==1.2.4
 PyYAML==3.12
 pyzmq==24.0.1
