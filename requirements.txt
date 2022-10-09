@@ -82,7 +82,6 @@ pip-tools==6.4.0
 placebo==0.10.0
 prometheus-client==0.14.1
 prompt-toolkit==3.0.31
-python==3.7.0
 py==1.11.0
 pycparser==2.21
 Pygments==2.13.0
