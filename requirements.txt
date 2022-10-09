@@ -82,6 +82,7 @@ pip-tools==6.4.0
 placebo==0.10.0
 prometheus-client==0.14.1
 prompt-toolkit==3.0.31
+python==3.7.0
 py==1.11.0
 pycparser==2.21
 Pygments==2.13.0
@@ -91,9 +92,6 @@ pytest==3.0.5
 pytest-cov==2.4.0
 python-dateutil==2.6.1
 python-slugify==1.2.4
-pytz==2022.2.1
-pywin32==304
-pywinpty==1.1.6
 PyYAML==3.12
 pyzmq==24.0.1
 qtconsole==5.2.2
