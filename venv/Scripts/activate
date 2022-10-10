@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="F:\self_learning\Projects\KaggleProjects\Breast Cancer Detection\venv"
+VIRTUAL_ENV="F:\self_learning\Projects\KaggleProjects\Breast_Cancer_Detection_ML_Project\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

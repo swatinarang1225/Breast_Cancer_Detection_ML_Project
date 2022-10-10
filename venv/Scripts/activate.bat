@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=F:\self_learning\Projects\KaggleProjects\Breast Cancer Detection\venv"
+set "VIRTUAL_ENV=F:\self_learning\Projects\KaggleProjects\Breast_Cancer_Detection_ML_Project\venv"
 
 if not defined PROMPT (
     set "PROMPT=$P$G"

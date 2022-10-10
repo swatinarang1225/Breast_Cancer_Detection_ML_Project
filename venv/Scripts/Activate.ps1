@@ -27,7 +27,7 @@ function global:deactivate ([switch]$NonDestructive) {
 
 deactivate -nondestructive
 
-$env:VIRTUAL_ENV="F:\self_learning\Projects\KaggleProjects\Breast Cancer Detection\venv"
+$env:VIRTUAL_ENV="F:\self_learning\Projects\KaggleProjects\Breast_Cancer_Detection_ML_Project\venv"
 
 if (! $env:VIRTUAL_ENV_DISABLE_PROMPT) {
     # Set the prompt to include the env name

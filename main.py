@@ -16,8 +16,9 @@ def hello_world():
 @app.route('/predict', methods=['POST', 'GET'])
 def predict():
     int_features = [x for x in request.form.values()]
-    final = [np.array(int_features)]
+    final = [np.array(int_features, dtype=float)]
     prediction = model.predict(final)
+    print(prediction)
     if prediction == 1:
         return render_template('Home.html', info='Patient has Breast Cancer')
     else:
