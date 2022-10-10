@@ -90,7 +90,6 @@ pyrsistent==0.18.0
 pytest==3.0.5
 pytest-cov==2.4.0
 python-slugify==1.2.4
-PyYAML==3.12
 pyzmq==24.0.1
 qtconsole==5.2.2
 QtPy==2.0.1
