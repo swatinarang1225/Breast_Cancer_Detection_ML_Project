@@ -21,7 +21,7 @@ The analysis has been done through the following steps:
 ### 1. Data Preprocessing
 
 * <ins>**Loading the data:-**</ins> The prepared data at [Kaggle](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data?select=data.csv) have been used to                                       train the model
-* <ins>* Data Exploration:-**</ins> This step involves the analysis to better understand the nature of data using data visualization and Statistical techniques such as                                      size, quantity, and accuracy.
+* <ins>**Data Exploration:-**</ins> This step involves the analysis to better understand the nature of data using data visualization and Statistical techniques such as                                      size, quantity, and accuracy.
 * <ins>**Dealing with missing Values:-**</ins> Here we dropped or removed the column or row in case of any null values.
 * <ins>**Dealing with categorical Data:-**</ins> Used pandas get_dummies function 
 * <ins>**Countplot, Correlation matrix and Heatmap:-**</ins> T find the extent of relation between various features in the dataset.
