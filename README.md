@@ -12,11 +12,12 @@ This repositiory is an practical exercise:
 1. To apply Machine Learning Fundamentals with already prepared Dataset.
 2. Evaluating my results and justify the interpretation based on observed Data Set.
 
-The analysis has been done through the following Steps:
-
-#### 1. Project Requirements
-* Pycharm (for python libraries)
+### Project Requirements
+* Anaconda Python (for Python libraries)
 * pip install flask - for Front End application.
 
-#### 2. Loading Data Set
+The analysis has been done through the following steps:
+
+#### 1. Data Preprocessing
+* <ins>**Loading the data:-**</ins> 
 
