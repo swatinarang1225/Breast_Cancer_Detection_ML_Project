@@ -4,6 +4,6 @@
 
 ![project front](https://user-images.githubusercontent.com/28431152/196962909-90bac9b4-bec9-4e69-a754-335868fefd2b.JPG)
 
-Deployed on Heroku(https://breast-cancer-detection-webapp.herokuapp.com/)
+[Deployed on Heroku](https://breast-cancer-detection-webapp.herokuapp.com/)
 
 
