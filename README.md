@@ -59,7 +59,7 @@ To deploy the application on Heroku refer article [Heroku Deployment](https://me
 
 ## Contributions
 Although it is an exercise to perform hands-on on the skill, but Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
-For any questions,queries or suggestions, feel free to contact me at [Email](swatinarang1225@gmail.com)
+For any questions,queries or suggestions, feel free to contact me at [swatinarang1225@gmail.com]
 
 
 
