@@ -34,7 +34,20 @@ The analysis has been done through the following steps:
 
 ### 3.Backened Creation
 
-After finalizing and testing the model, maintain trained model using pickle which can be be used to connect with Flask application.
+After finalizing and testing the model, maintain trained model using pickle which can be be used to connect with Flask application. In this project file is named as model.pkl.
+
+### 4. Front-End Creation(Flask Application)
+
+* Breast Cancer detection.ipynb — This contains code for the machine learning model to predict cancer based on the class.
+* main.py — This contains Flask APIs that receives cells details through GUI or API calls, computes the predicted value based on our model and returns it
+* templates & static — This folders contains the HTML template and CSS styling to allow user to enter cells details and displays the predicted output.
+
+### 5. Integrating application with ML backened
+### 6. Deployed on Heroku
+
+To deploy the application on Heroku refer article [Heroku Deployment](https://medium.com/student-technical-community-vit-vellore/deploying-flask-app-on-heroku-using-github-504a40ed40de#:~:text=On%20Heroku%2C%20when%20it%20comes,repository%20to%20your%20Heroku%20app.)
+
+
 
 
 
