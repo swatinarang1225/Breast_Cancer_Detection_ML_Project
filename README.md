@@ -51,6 +51,16 @@ After finalizing and testing the model, maintain trained model using pickle whic
 ### 6. Deployed on Heroku
 To deploy the application on Heroku refer article [Heroku Deployment](https://medium.com/student-technical-community-vit-vellore/deploying-flask-app-on-heroku-using-github-504a40ed40de#:~:text=On%20Heroku%2C%20when%20it%20comes,repository%20to%20your%20Heroku%20app.)
 
+## How to Execute the Code on local:
+* Download the repository and extract in a folder.
+* Verify the python version installed on your machine. This project runs on Python 3.6 and above.
+* Now install the requirements mention in requirements.txt file.
+* Execute the python script on terminal using : python main.py
+
+## Contributions
+Although it is an exercise to perform hands-on on the skill, but Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+For any questions,queries or suggestions, feel free to contact me at [Email](swatinarang1225@gmail.com)
+
 
 
 
