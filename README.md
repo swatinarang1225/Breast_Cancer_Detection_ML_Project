@@ -43,6 +43,11 @@ After finalizing and testing the model, maintain trained model using pickle whic
 * templates & static — This folders contains the HTML template and CSS styling to allow user to enter cells details and displays the predicted output.
 
 ### 5. Integrating application with ML backened
+ * Create main.py in which we have used flask web framework to handle POST and GET methods.
+ *  Use numpy to python package to create array of requested data and pickle pacakge to load trained model to predict.
+ *  we have bounded /api with the method predict(). In which predict method gets the data from the json passed by the requestor. model.predict() method takes input from the json and converts it into 2D numpy array the results are stored into the variable named prediction.   
+
+
 ### 6. Deployed on Heroku
 To deploy the application on Heroku refer article [Heroku Deployment](https://medium.com/student-technical-community-vit-vellore/deploying-flask-app-on-heroku-using-github-504a40ed40de#:~:text=On%20Heroku%2C%20when%20it%20comes,repository%20to%20your%20Heroku%20app.)
 
