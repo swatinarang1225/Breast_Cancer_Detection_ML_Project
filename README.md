@@ -44,7 +44,7 @@ After finalizing and testing the model, maintain trained model using pickle whic
 
 ### 5. Integrating application with ML backened
 ### 6. Deployed on Heroku
-To deploy the application on Heroku refer article [Heroku Deployment](https://medium.com/student-technical-community-vit-vellore/deploying-flask-app-on-heroku-    using-github-504a40ed40de#:~:text=On%20Heroku%2C%20when%20it%20comes,repository%20to%20your%20Heroku%20app.)
+To deploy the application on Heroku refer article [Heroku Deployment](https://medium.com/student-technical-community-vit-vellore/deploying-flask-app-on-heroku-using github-504a40ed40de#:~:text=On%20Heroku%2C%20when%20it%20comes,repository%20to%20your%20Heroku%20app.)
 
 
 
